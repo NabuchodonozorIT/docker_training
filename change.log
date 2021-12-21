@@ -1,0 +1,113 @@
+Css
+Css sprites
+Include vs extend
+Link vs import
+Grid/flex
+BEM
+Selectory , > + ~ https://code.tutsplus.com/pl/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+@each
+Visibility hidden vs display none https://siriuspro.pl/display-none-vs-visibility-hidden
+Themes
+Atomic design
+RWD
+Web/html
+Semantic html
+Rest api
+Accessibility
+Cookies, local storage, session storage
+Put vs post https://clockworkjava.pl/2021/02/rest-api-post-vs-put-vs-patch/
+Js
+This scope
+Memoization
+Set
+weakSet
+closures https://devpebe.com/2020/07/14/czym-sa-domkniecia-closures-w-javascript/
+rest, spread operator https://kursjs.pl/kurs/es6/spread-rest.php
+freeze(), seal()
+bind, call, apply
+IIFE
+Arrow functions
+Var, let, cosnt
+Map, filter, reduce
+Mutating methods
+Pure functions
+Ts
+Interface, abstract http://adriankurek.pl/2019/01/20/klasa-abstrakcyjna-a-interfejs-jakie-sa-roznice/
+Omit
+Partial
+Unknown https://clockworkjava.pl/2019/12/any-i-unknown-w-typescript/
+Type union
+let code: (string | number);
+code = 123;   // OK
+code = "ABC"; // OK
+code = false; // Compiler Error
+
+Angular
+NgModules
+EntryComponents
+Dynamic components
+Hooks
+@viewChild/Children
+@contentChild/Children
+queryList
+Interceptors
+Guards
+
+
+CanActivate
+
+    Checks to see if a user can visit a route.
+CanActivateChild
+
+    Checks to see if a user can visit a routes children.
+CanDeactivate
+
+    Checks to see if a user can exit a route.
+Resolve
+
+    Performs route data retrieval before route activation.
+CanLoad
+
+    Checks to see if a user can route to a module that lazy loaded.
+
+
+
+
+Resolve
+Routing Wildcard
+Zone.js https://www.angular.love/2018/03/04/angular-i-zone-js/
+runOutsideAngular https://www.angular.love/2018/03/04/angular-i-zone-js/
+run
+ViewEncapsulation
+Async pipe https://blog.szkudelski.dev/posts/async-pipe-w-angular-szczegolowa-analiza
+Structural directives
+Server Side Rendering
+Web workers
+JIT vs AOT compilation
+Push strategy
+Rxjs
+Subject, behaviorSubject, ReplaySubject
+When to unsubscribe
+NGRX
+
+
+DOCKEr
+npm init --yes
+docker build -f ../Dockerfile .
+docker build -t konior/demo .
+docker run -p 8000:8080 konior/demo
+docker ps
+docker stop i indetyfukator
+docker run -p 8000:8080 -v  /docker/trening/:/home/node/app konior/demo
+docker run -p 8000:8080 -v   C:/docker/trening :/home/node/app konior/demo
+docker run --interactive --tty ubuntu bash   ======= docker -it ubundu bash
+docker container ls -a
+docker exec
+docker exec nostalgic_montalcini cat wowik.txt
+docker commit <contener>
+docker image lsdocker history 
+docker pull
+docker tag nazwa i nowa nazwa
+docker push nazwaObrazu
+docer cp - kopiowanie
+RUN apt-get install --yes
