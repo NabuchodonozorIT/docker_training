@@ -1,16 +1,20 @@
-version: "3"
+version: "3.9"
 
 services:
   mailer-service:
-    build: /mailer
-    volumes:
-      - /mailer:/home/node/app
+    build: ./mailer
+    image: wowik-mail
+#    working_dir: /mailer
+#    volumes:
+#      - /mailer:/home/node/app
     ports:
       - 8081:8080
   web-service:
-    build: "/web"
-    volumes:
-      - /web:/home/node/app
+    build: ./web
+    image: wowik-web-service
+#    working_dir: /web
+#    volumes:
+#      - /web:/home/node/app
     ports:
       - 8082:8080
     depends_on:
